@@ -1,0 +1,49 @@
+@import '../../variables';
+
+.meli-nav {
+    background-color: $meli-primary-color;
+    width: 100%;
+    display: flex;
+    padding: 0.8rem ;
+    flex-direction: row;
+
+    .brand-container {
+        text-align: center;
+        cursor: pointer;
+        img{
+            height: 100%;
+        }
+    }
+
+    .search-input {
+        display: flex;
+
+        .search-button {
+            &,
+            &:focus {
+                border: none;
+                outline: none;
+            }
+            color: #333333;
+            width: 3rem;
+            border-radius: 0 0.25rem 0.25rem 0;
+            img {width: 1.25rem;}
+        }
+    }
+
+    input {
+        font-size: 18px;
+        padding-left: 1rem;
+        border-radius: 0.25rem 0 0 0.25rem;
+        &,
+        &:hover {
+            border: none;
+            outline: none;
+        }
+        &:focus {
+            box-shadow: none;
+        }
+        
+        
+    }
+}

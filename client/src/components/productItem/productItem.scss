@@ -1,0 +1,35 @@
+.item-container {
+    padding: 16px;
+
+    .img-container {
+        cursor: pointer;
+        text-align: center;
+        img {
+            width: 180px;
+            height: 180px;
+            border-radius: 0.4rem;
+            text-align: center;
+        }
+    }
+
+    .title-container{
+        .item-title {
+            font-size: 24px;
+        }
+        .item-img {
+            width: 22px;
+            margin-left: 0.5rem;
+            vertical-align: text-top;
+        }
+        .item-location {
+            font-size: 12px;
+            float: right;
+            line-height: 35px;
+        }
+    }
+
+    .item-text {
+        font-size: 18px;
+        cursor: pointer;
+    }
+}

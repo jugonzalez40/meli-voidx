@@ -1,0 +1,62 @@
+@import '../../variables';
+
+$margin: 23px;
+
+.detail-container {
+    background-color: #fff;
+    color: $meli-font-color;
+    border-radius: 0.4rem;
+    min-height: calc(100vh - 160px);
+    margin-bottom: 1.5rem;
+    .image-container {
+        text-align: center;
+        padding: $margin; 
+        img {
+            width: 100%;
+        }
+    }
+
+    .title-container {
+        .status {
+            margin-top: $margin;
+            margin-bottom: 0;
+            font-size: 14px;
+            span{
+                margin-right: 0.5rem;
+            }
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: $margin;
+            margin-top: 16px;
+        }
+        .price {
+            font-size: 46px;
+            margin-bottom: $margin;
+        }
+
+        .shop-button {
+            background-color: #3483FA;
+            color: #fff;
+            border: none;
+            border-radius: 0.25rem;
+            height: 2.6rem;
+            width: 100%;
+        }
+    }
+
+    .description-container {
+        margin-left: $margin;
+        .description-title {
+            font-size: 28px;
+            
+        }
+        .description-text {
+            font-size: 16px;
+            color: #999999;
+            margin-top: $margin;
+            margin-bottom: $margin;
+        }
+    }
+}

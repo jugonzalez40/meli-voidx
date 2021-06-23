@@ -1,0 +1,9 @@
+@import '../../variables';
+.home-container {
+    text-align: center;
+    background-color: #fff;
+    color: $meli-font-color;
+    border-radius: 0.4rem;
+    min-height: calc(100vh - 160px);
+    padding: 1.5rem;
+}

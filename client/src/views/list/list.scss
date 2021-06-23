@@ -1,0 +1,13 @@
+@import '../../variables';
+.list-container {
+    background-color: #fff;
+    color: $meli-font-color;
+    border-radius: 0.4rem;
+    min-height: calc(100vh - 160px);
+    margin-bottom: 1.5rem;
+    
+    .divider {
+        margin: 0 1.5rem;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+    }
+}
